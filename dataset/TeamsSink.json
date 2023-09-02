@@ -2,7 +2,7 @@
 	"name": "TeamsSink",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "ADLS",
+			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "teams.csv",
 				"folderPath": "raw-data",
 				"fileSystem": "tokyo-olympics-container"
 			},
